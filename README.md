@@ -1,6 +1,3 @@
-# DEV DEV DEV DEV
-
-
 # Aphonia AI
 
 ## Leírás
