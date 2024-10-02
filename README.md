@@ -3,13 +3,18 @@
 
 ## Leírás
 
-**Aphonia AI** egy OpenAI alapú mesterséges intelligencia program, amely képes lenyűgöző képeket generálni különböző témákban. Az Aphonia AI lehetővé teszi a felhasználók számára, hogy saját ötleteiket és koncepcióikat vizuális formába öntsék.
+**Aphonia AI** egy OpenAI alapú mesterséges intelligencia, amely képes képeket generálni különböző témákban. Az Aphonia AI lehetővé teszi a felhasználók számára, hogy saját ötleteiket és koncepcióikat vizuális formába öntsék.
 
 ## Főbb Jellemzők
 
-- **Kép Generálás:** Az Aphonia AI az OpenAI modellek segítségével változatos stílusú és témájú képeket hoz létre.
-- **Python Alapú:** Egyszerűen kezelhető Python AI, és könnyen futtatható.
-- **API Használat:** Az OpenAI API-jának kihasználásával gyors és hatékony képgenerálás.
+- **Kép Generálás:** Az Aphonia AI az OpenAI modellek segítségével működik, így képes lenyűgöző képeket generálni.
+- **Python Alapú:** Egyszerűen kezelhető és könnyen futtatható.
+- **API Használat:** Az OpenAI API-jának kihasználásával valósítja meg a funkciókat.
+
+## Választható AI Modellek
+
+- **Képgenerálás:** Támogatja a DALL-E 2 és 3 modelleket.
+- **Szövegmodellek:** Támogatja a GPT-4 és GPT-4o modelleket.
 
 ## Telepítési Útmutató
 
@@ -17,17 +22,21 @@
    - Python 3.7 vagy újabb
    - OpenAI Python könyvtár
 
-2. **Telepítés:**
+2. **Rendszer Telepítése:**
    - Klónozza a projektet a GitHub-ról:
-     ```git
-     git clone https://github.com/felhasznalonev/aphonia-ai.git
-     cd aphonia-ai
+     ```bash
+     git clone https://github.com/xycertbsi/Aphonia-AI.git
+     cd Aphonia-AI
      ```
    - Telepítse a szükséges csomagokat:
-     ```python
+     ```bash
      pip install openai
      ```
    - Futtassa a programot:
      ```bash
      python run.py
      ```
+
+3. **Konfiguráció:**
+   - Az első futtatáskor egy **beépített telepítő** fog indulni.
+   - **Folyamata:** API kulcs, szövegmodell és képgenerálás beállítása.
