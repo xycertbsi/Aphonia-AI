@@ -29,9 +29,8 @@
      cd Aphonia-AI
      ```
    - Telepítse a szükséges csomagokat:
-   - 
-     -> Windows-on futtasd a **install.bat**-ot
-     -> Linuxon a **install.sh**-t
+     * Windows-on futtasd a **install.bat**-ot
+     * Linuxon a **install.sh**-t
      
    - Futtassa a programot:
      ```bash
