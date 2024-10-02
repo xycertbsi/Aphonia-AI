@@ -1,20 +1,28 @@
 #!/bin/bash
 
-# Kimenet elrejtése
-set +x
+echo "PIP csomagok telepitese..."
 
-echo "PIP Csomagok telepítése..."
-pip install -r requirements.txt
-
-if [ $? -ne 0 ]; then
-    echo "A csomagok telepítése nem sikerült."
+if [ ! -f requirements.txt ]; then
+    echo "A requirements.txt fajl nem talalhato."
+    sleep 5
     exit 1
 fi
 
-echo "Program futtatása..."
-python main.py
-
+# Kimenet elrejtése a pip install és python futtatas során
+pip install -r requirements.txt > /dev/null 2>&1
 if [ $? -ne 0 ]; then
-    echo "A program futtatása nem sikerült."
+    echo "A csomagok telepitese nem sikerult."
+    sleep 5
     exit 1
 fi
+
+echo "Program futtatas..."
+python main.py > /dev/null 2>&1
+if [ $? -ne 0 ]; then
+    echo "A program futtatasa nem sikerult."
+    sleep 5
+    exit 1
+fi
+
+echo "Minden folyamat sikeresen befejezodott."
+sleep 5
