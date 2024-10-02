@@ -28,9 +28,7 @@
      cd Aphonia-AI
      ```
    - Telepítse a szükséges csomagokat:
-     ```bash
-     pip install openai
-     ```
+     Windows-on futtasd a **install.bat**-ot és Linuxon a **install.sh**-t
    - Futtassa a programot:
      ```bash
      python main.py
