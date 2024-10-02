@@ -33,7 +33,7 @@
      ```
    - Futtassa a programot:
      ```bash
-     python run.py
+     python main.py
      ```
 
 3. **Konfiguráció:**
