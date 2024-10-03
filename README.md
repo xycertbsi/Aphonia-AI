@@ -6,9 +6,9 @@
   / _ \  | '_ \ | '_ \  / _ \ | '_ \ | | / _` |    / _ \   | |
  / ___ \ | |_) || | | || (_) || | | || || (_| |   / ___ \  | |
 /_/   \_\| .__/ |_| |_| \___/ |_| |_||_| \__,_|  /_/   \_\|___|
-
          |_|
 ```
+
 ## Leírás
 
 **Aphonia AI** egy OpenAI alapú mesterséges intelligencia, amely képes képeket generálni különböző témákban. Az Aphonia AI lehetővé teszi a felhasználók számára, hogy saját ötleteiket és koncepcióikat vizuális formába öntsék.
