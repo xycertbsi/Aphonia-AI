@@ -9,9 +9,6 @@
 
          |_|
 ```
-
-![4](https://github.com/user-attachments/assets/cc11ed69-232d-4482-afc3-ecc0cd946101)
-
 ## Leírás
 
 **Aphonia AI** egy OpenAI alapú mesterséges intelligencia, amely képes képeket generálni különböző témákban. Az Aphonia AI lehetővé teszi a felhasználók számára, hogy saját ötleteiket és koncepcióikat vizuális formába öntsék.
